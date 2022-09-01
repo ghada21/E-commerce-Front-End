@@ -2,33 +2,39 @@
 @include mat-core();
 
 @import 'theme-reset';
-.app{
-    &.green{
+
+.app {
+    &.green {
         @import "skins/green";
         @include angular-material-theme($green-theme);
         @include theme-reset($green-theme);
     }
-    &.blue{
+
+    &.blue {
         @import "skins/blue";
         @include angular-material-theme($blue-theme);
         @include theme-reset($blue-theme);
     }
-    &.red{
+
+    &.red {
         @import "skins/red";
         @include angular-material-theme($red-theme);
         @include theme-reset($red-theme);
     }
-    &.pink{
+
+    &.pink {
         @import "skins/pink";
         @include angular-material-theme($pink-theme);
         @include theme-reset($pink-theme);
     }
-    &.purple{
+
+    &.purple {
         @import "skins/purple";
         @include angular-material-theme($purple-theme);
         @include theme-reset($purple-theme);
     }
-    &.grey{
+
+    &.grey {
         @import "skins/grey";
         @include angular-material-theme($grey-theme);
         @include theme-reset($grey-theme);
